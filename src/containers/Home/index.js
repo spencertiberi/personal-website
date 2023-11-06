@@ -6,11 +6,12 @@ import ExperienceItem from '../../components/ExperienceItem'
 import {
   Bars,
   Bio,
+  BioSection,
   Container,
   Education,
   Experience,
   Heading,
-  Row,
+  ProfileImage,
   Transition,
 } from './styles'
 import haas from '../../assets/haas.png'
@@ -21,16 +22,20 @@ import ccsd from '../../assets/ccsd.png'
 import dev from '../../assets/dev.png'
 import ds from '../../assets/ds.png'
 import edX from '../../assets/edX.webp'
+import spencer from '../../assets/spencer.png'
 
 const Home = () => (
   <Container>
     <Header />
-    <Bio>
-      Born and raised in Las Vegas, NV, where he frequently rode both ATVs and
-      snowboards, with stints of playing the Legend of Zelda series mixed in. He
-      currently lives in Milton, MA, where he works as a product manager at edX.
-      In his free time he loves to create music.
-    </Bio>
+    <BioSection>
+      <Bio>
+        Born and raised in Las Vegas, NV, where he frequently rode both ATVs and
+        snowboards, with stints of playing the Legend of Zelda series mixed in.
+        He currently lives in Milton, MA, where he works as a product manager at
+        edX. In his free time he loves to create music.
+      </Bio>
+      <ProfileImage src={spencer} />
+    </BioSection>
     <Bars>
       <Heading rotation="2deg" shift="18px">
         Education

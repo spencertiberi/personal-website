@@ -31,8 +31,10 @@ const Vista = styled.div`
 `
 
 const Signature = styled.img`
-  height: 275px;
+  height: auto;
   width: 550px;
+  max-width: 90vw;
+  max-height: auto;
   z-index: 5;
   position: absolute;
 `
@@ -68,6 +70,7 @@ export const Heading = styled.h1`
   font-size: 4em;
   font-weight: 500;
   transform: ${(props) => props.rotation && `rotate(${props.rotation})`};
+  max-width: 90vw;
 `
 
 const Header = () => (

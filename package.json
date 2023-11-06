@@ -1,7 +1,8 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://spencertiberi.github.io/personalsite",
+  "homepage": "https://spencertiberi.com",
+  "CNAME": "spencertiberi.com",
   "private": true,
   "dependencies": {
     "@rebass/grid": "^6.1.0",

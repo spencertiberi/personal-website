@@ -33,6 +33,17 @@ export const Bio = styled.p`
   font-weight: 400;
 `
 
+export const BioSection = styled(Flex)`
+  flex-direction: Row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  max-width: 80vw;
+  @media screen and (max-width: 900px) {
+    flex-direction: column-reverse;
+  }
+`
+
 export const Container = styled(Flex)`
   flex-direction: Column;
   align-items: center;
@@ -54,6 +65,7 @@ export const Education = styled(Flex)`
   padding: 0 5vw;
   width: 100vw;
   background-color: #a1b49c;
+  flex-wrap: wrap;
 `
 
 export const Experience = styled(Flex)`
@@ -63,6 +75,7 @@ export const Experience = styled(Flex)`
   padding: 0 5vw;
   width: 100vw;
   background-color: #505647;
+  flex-wrap: wrap;
 `
 
 export const Heading = styled.h1`
@@ -74,6 +87,7 @@ export const Heading = styled.h1`
   font-size: 3.2em;
   font-weight: 500;
   transform: ${(props) => props.rotation && `rotate(${props.rotation})`};
+  max-width: 90vw;
 `
 
 export const Row = styled(Flex)`
@@ -84,6 +98,13 @@ export const Row = styled(Flex)`
   width: 100vw;
   height: auto;
   color: inherit;
+`
+
+export const ProfileImage = styled.img`
+  width: 400px;
+  height: auto;
+  max-height: 37vw;
+  max-width: 40vw;
 `
 
 export const Transition = styled(Flex)`

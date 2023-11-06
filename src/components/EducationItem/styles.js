@@ -21,6 +21,7 @@ export const Container = styled(Flex)`
   font-family: 'Jost', sans-serif;
   font-size: 1em;
   font-weight: 400;
+  max-width: 100vw;
 `
 
 export const Heading = styled.h2`
@@ -30,6 +31,7 @@ export const Heading = styled.h2`
   font-weight: 700;
   text-align: center;
   margin: 5px 0;
+  max-width: 100vw;
 `
 
 export const Logo = styled.img`

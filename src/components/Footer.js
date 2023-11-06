@@ -6,7 +6,7 @@ const Container = styled(Flex)`
   flex-direction: Column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 10px 2vw;
+  padding: 15px 2vw;
   height: 200px;
   width: 100vw;
   color: #d4b483;
@@ -25,6 +25,14 @@ const Container = styled(Flex)`
   font-size: 0.8em;
 `
 
-const Footer = ({ children }) => <Container>{children}</Container>
+const Copyright = styled(Flex)`
+  transform: rotate(2deg);
+`
+
+const Footer = ({ children }) => (
+  <Container>
+    <Copyright>{children}</Copyright>
+  </Container>
+)
 
 export default Footer

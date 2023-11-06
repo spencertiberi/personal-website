@@ -47,6 +47,10 @@ export const Logo = styled.img`
   max-width: 10vw;
   height: auto;
   max-height: 100%;
+
+  @media screen and (max-width: 900px) {
+    max-width: 30vw;
+  }
 `
 
 export const LogoContainer = styled(Flex)`
