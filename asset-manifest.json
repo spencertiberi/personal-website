@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.073c9b0a.css",
-    "main.js": "/personal-website/static/js/main.2b17d182.js",
-    "static/js/787.71e672d5.chunk.js": "/personal-website/static/js/787.71e672d5.chunk.js",
-    "static/media/signature.png": "/personal-website/static/media/signature.d3c4158b59f42d288f04.png",
-    "static/media/bhs.png": "/personal-website/static/media/bhs.01785d3a8aa3aca71a74.png",
-    "static/media/redrock.svg": "/personal-website/static/media/redrock.3f87172187def7d2f50cdd73377358ce.svg",
-    "static/media/unlv.png": "/personal-website/static/media/unlv.d53b53c00826bce1bf8c.png",
-    "static/media/harvard.png": "/personal-website/static/media/harvard.f052c1eb55f8fbb98d6e.png",
-    "static/media/ds.png": "/personal-website/static/media/ds.9456242aa7b1a01f00d3.png",
-    "static/media/haas.png": "/personal-website/static/media/haas.139899099d0f4d04b34c.png",
-    "static/media/dev.png": "/personal-website/static/media/dev.458bbb1fad6a1719a5f2.png",
-    "static/media/edX.webp": "/personal-website/static/media/edX.09cd6c388caee51b5222.webp",
-    "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/personal-website/index.html",
-    "main.073c9b0a.css.map": "/personal-website/static/css/main.073c9b0a.css.map",
-    "main.2b17d182.js.map": "/personal-website/static/js/main.2b17d182.js.map",
-    "787.71e672d5.chunk.js.map": "/personal-website/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.d425c26d.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/signature.png": "/static/media/signature.d3c4158b59f42d288f04.png",
+    "static/media/bhs.png": "/static/media/bhs.01785d3a8aa3aca71a74.png",
+    "static/media/redrock.svg": "/static/media/redrock.3f87172187def7d2f50cdd73377358ce.svg",
+    "static/media/unlv.png": "/static/media/unlv.d53b53c00826bce1bf8c.png",
+    "static/media/harvard.png": "/static/media/harvard.f052c1eb55f8fbb98d6e.png",
+    "static/media/ds.png": "/static/media/ds.9456242aa7b1a01f00d3.png",
+    "static/media/haas.png": "/static/media/haas.139899099d0f4d04b34c.png",
+    "static/media/dev.png": "/static/media/dev.458bbb1fad6a1719a5f2.png",
+    "static/media/edX.webp": "/static/media/edX.09cd6c388caee51b5222.webp",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.d425c26d.js.map": "/static/js/main.d425c26d.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2b17d182.js"
+    "static/js/main.d425c26d.js"
   ]
 }
