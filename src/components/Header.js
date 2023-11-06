@@ -59,6 +59,11 @@ const Gradient = styled(Flex)`
     rgba(206, 151, 122, 1) 70%,
     rgba(203, 141, 119, 1) 70%
   );
+
+  @media screen and (max-width: 900px) {
+    align-items: center;
+    justify-content: flex-start;
+  }
 `
 
 export const Heading = styled.h1`
@@ -71,6 +76,15 @@ export const Heading = styled.h1`
   font-weight: 500;
   transform: ${(props) => props.rotation && `rotate(${props.rotation})`};
   max-width: 90vw;
+
+  @media screen and (max-width: 900px) {
+    line-height: 1em;
+    top: 44px;
+  }
+  @media screen and (max-width: 476px) {
+    line-height: 1em;
+    top: 3px;
+  }
 `
 
 const Header = () => (

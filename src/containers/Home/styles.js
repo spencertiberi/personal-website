@@ -31,6 +31,10 @@ export const Bio = styled.p`
   font-family: 'Jost', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
+
+  @media screen and (max-width: 900px) {
+    width: 70vw;
+  }
 `
 
 export const BioSection = styled(Flex)`
@@ -105,6 +109,13 @@ export const ProfileImage = styled.img`
   height: auto;
   max-height: 37vw;
   max-width: 40vw;
+
+  @media screen and (max-width: 900px) {
+    width: 70vw;
+    max-width: none;
+    max-height: none;
+    height: auto;
+  }
 `
 
 export const Transition = styled(Flex)`

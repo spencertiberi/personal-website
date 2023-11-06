@@ -22,7 +22,7 @@ import ccsd from '../../assets/ccsd.png'
 import dev from '../../assets/dev.png'
 import ds from '../../assets/ds.png'
 import edX from '../../assets/edX.webp'
-import spencer from '../../assets/spencer.png'
+import spencer from '../../assets/spencer2.png'
 
 const Home = () => (
   <Container>
@@ -121,7 +121,9 @@ const Home = () => (
         yearEnd="2017"
       />
     </Experience>
-    <Footer>1991 and onward, my dude. Spencer Tiberi &copy; 2023</Footer>
+    <Footer>
+      1991 onward and upnward, my dude. Spencer Tiberi &copy; 2023
+    </Footer>
   </Container>
 )
 
