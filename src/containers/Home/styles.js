@@ -27,7 +27,7 @@ export const Bio = styled.p`
   justify-content: flex-start;
   text-align: justify;
   width: 50%;
-  color: #505647;
+  color: #403929;
   font-family: 'Jost', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
@@ -41,7 +41,7 @@ export const BioSection = styled(Flex)`
   flex-direction: Row;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 700px;
   max-width: 80vw;
   @media screen and (max-width: 900px) {
     flex-direction: column-reverse;

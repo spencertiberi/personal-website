@@ -5,6 +5,8 @@
   "CNAME": "spencertiberi.com",
   "private": true,
   "dependencies": {
+    "@fluentui/react": "^8.117.6",
+    "@fluentui/react-components": "^9.48.0",
     "@rebass/grid": "^6.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.0.0"
   }
 }

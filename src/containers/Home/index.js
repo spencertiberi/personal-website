@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import EducationItem from '../../components/EducationItem'
 import ExperienceItem from '../../components/ExperienceItem'
+import StatCard from '../../components/StatCard'
 import {
   Bars,
   Bio,
@@ -23,18 +24,20 @@ import dev from '../../assets/dev.png'
 import ds from '../../assets/ds.png'
 import edX from '../../assets/edX.webp'
 import spencer from '../../assets/spencer2.png'
+import { defaultUser } from '../../components/StatCard/people'
 
 const Home = () => (
   <Container>
     <Header />
     <BioSection>
-      <Bio>
+      {/* <Bio>
         Born and raised in Las Vegas, NV, where he frequently rode both ATVs and
         snowboards, with stints of playing the Legend of Zelda series mixed in.
         He currently lives in Milton, MA, where he works as a product manager at
         edX. In his free time he loves to create music.
       </Bio>
-      <ProfileImage src={spencer} />
+      <ProfileImage src={spencer} /> */}
+      <StatCard person={defaultUser} />
     </BioSection>
     <Bars>
       <Heading rotation="2deg" shift="18px">
@@ -121,9 +124,7 @@ const Home = () => (
         yearEnd="2017"
       />
     </Experience>
-    <Footer>
-      1991 onward and upnward, my dude. Spencer Tiberi &copy; 2023
-    </Footer>
+    <Footer>1991 onward and upward, my dude. Spencer Tiberi &copy; 2024</Footer>
   </Container>
 )
 
