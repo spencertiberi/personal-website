@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { ProgressIndicator } from '@fluentui/react'
-import { RatingDisplay } from '@fluentui/react-components'
-import { CircleFilled } from '@fluentui/react-icons'
 import { Flex } from '@rebass/grid'
-import defaultImage from './defaultImage.png'
 
 const Container = styled(Flex)`
   flex-direction: Column;
@@ -42,17 +39,6 @@ const Image = styled.img`
   }
 `
 
-// const Label = styled(Flex)`
-//   font-size: 16px;
-//   line-height: 16px;
-//   width: 11em;
-//   text-align: left;
-
-//   @media only screen and (max-width: 670px) {
-//     display: none;
-//   }
-// `
-
 const Row = styled(Flex)`
   font-size: 16px;
   flex-direction: row;
@@ -79,14 +65,6 @@ const Text = styled(Flex)`
   font-size: 16px;
   text-align: justify;
 `
-
-// const Name = styled(Flex)`
-//   font-size: 30px;
-//   margin-bottom: 10px;
-//   width: auto;
-//   font-weight: bold;
-//   letter-spacing: 5px;
-// `
 
 const Bar = styled(ProgressIndicator)`
   width: 30vw;
@@ -136,7 +114,6 @@ const StatLine = ({ stat, level }) => {
         styles={barStyles}
         label={stat}
       />
-      {/* <RatingDisplay icon={CircleFilled} max={10} value={number} /> */}
     </StatContainer>
   )
 }
@@ -145,7 +122,7 @@ const StatCard = ({ person }) => (
   <Container>
     <Row>
       <Bio>
-        <Image src={person.image || defaultImage} />
+        <Image src={person.image} />
         <b>Bio</b>
         <Text>{person.bio}</Text>
       </Bio>

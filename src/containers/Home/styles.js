@@ -82,12 +82,47 @@ export const Experience = styled(Flex)`
   flex-wrap: wrap;
 `
 
+export const Wrapper = styled.div`
+  background-color: #505647;
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const Portfolio = styled(Flex)`
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 30px 2vw;
+  width: 98vw;
+  height: auto;
+  background-color: #d4b483;
+  border-radius: 1vw 1vw 0 0;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 2vw;
+`
+
+export const Tab = styled.div`
+  width: 15vw;
+  height: 40px;
+  background-color: #d4b483;
+  border-radius: 1vw 1vw 0 0;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 10vw;
+  top: -40px;
+  z-index: 1000;
+`
+
 export const Heading = styled.h1`
   color: ${(props) => (props.alt ? '#D4B483' : '#505647')};
   position: relative;
   top: ${(props) => (props.shift ? props.shift : '0')};
   font-family: 'Jost', sans-serif;
-  font-style: italic;
+  font-style: ${(props) => (props.italic ? 'italic' : 'normal')};
   font-size: 3.2em;
   font-weight: 500;
   transform: ${(props) => props.rotation && `rotate(${props.rotation})`};

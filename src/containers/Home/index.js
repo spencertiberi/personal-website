@@ -3,17 +3,19 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import EducationItem from '../../components/EducationItem'
 import ExperienceItem from '../../components/ExperienceItem'
+import PortfolioItem from '../../components/PortfolioItem'
 import StatCard from '../../components/StatCard'
 import {
   Bars,
-  Bio,
   BioSection,
   Container,
   Education,
   Experience,
   Heading,
-  ProfileImage,
+  Portfolio,
+  Tab,
   Transition,
+  Wrapper,
 } from './styles'
 import haas from '../../assets/haas.png'
 import harvard from '../../assets/harvard.png'
@@ -23,24 +25,19 @@ import ccsd from '../../assets/ccsd.png'
 import dev from '../../assets/dev.png'
 import ds from '../../assets/ds.png'
 import edX from '../../assets/edX.webp'
-import spencer from '../../assets/spencer2.png'
+import roach from '../../assets/roach.png'
+import xpert from '../../assets/xpert.png'
+import thiswebsite from '../../assets/thiswebsite.png'
 import { defaultUser } from '../../components/StatCard/people'
 
 const Home = () => (
   <Container>
     <Header />
     <BioSection>
-      {/* <Bio>
-        Born and raised in Las Vegas, NV, where he frequently rode both ATVs and
-        snowboards, with stints of playing the Legend of Zelda series mixed in.
-        He currently lives in Milton, MA, where he works as a product manager at
-        edX. In his free time he loves to create music.
-      </Bio>
-      <ProfileImage src={spencer} /> */}
       <StatCard person={defaultUser} />
     </BioSection>
     <Bars>
-      <Heading rotation="2deg" shift="18px">
+      <Heading rotation="2deg" shift="18px" italic>
         Education
       </Heading>
     </Bars>
@@ -70,7 +67,7 @@ const Home = () => (
       />
     </Education>
     <Transition>
-      <Heading alt rotation="-2deg" shift="18px">
+      <Heading alt rotation="-2deg" shift="18px" italic>
         Experience
       </Heading>
     </Transition>
@@ -124,6 +121,38 @@ const Home = () => (
         yearEnd="2017"
       />
     </Experience>
+    <Wrapper>
+      <Heading alt shift="18px">
+        Portfolio
+      </Heading>
+      <Portfolio>
+        <Tab />
+        <PortfolioItem
+          title="Xpert Learning Assistant"
+          logo={xpert}
+          alt="Xpert Learning Assistant"
+          description="Chat-GPT-driven virtual tutor on edX.org"
+          color="14,41,44"
+          link="https://press.edx.org/edx-debuts-two-ai-powered-learning-assistants-built-on-chatgpt"
+        />
+        <PortfolioItem
+          title="This Website"
+          logo={thiswebsite}
+          alt="spencertiberi.com"
+          description="A personal website built using React.JS"
+          color="55, 95, 116"
+          link="https://github.com/spencertiberi/personal-website"
+        />
+        <PortfolioItem
+          title="Roach"
+          logo={roach}
+          alt="Roach"
+          description="An EP recorded in my apartment during the COVID-19 stay-at-home order. Dedicated to my dad for Father's Day"
+          color="82, 119, 99"
+          flip
+        />
+      </Portfolio>
+    </Wrapper>
     <Footer>1991 onward and upward, my dude. Spencer Tiberi &copy; 2024</Footer>
   </Container>
 )

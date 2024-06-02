@@ -14,9 +14,8 @@ export const defaultUser = {
     'Music Composition': 8,
     'Presentation Skills': 9,
     'Product Strategy': 8,
-    'Project Management': 8,
-    'Public Speaking': 9,
-    'Spatial Reasoning': 9,
-    'THPS References': 10,
+    'Project Management': 7,
+    'Relationship Management': 9,
+    'Tony Hawk Pro Skater References': 10,
   },
 }
