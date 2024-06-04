@@ -16,6 +16,6 @@ export const defaultUser = {
     'Product Strategy': 8,
     'Project Management': 7,
     'Relationship Management': 9,
-    'Tony Hawk Pro Skater References': 10,
+    "Tony Hawk's Pro Skater References": 10,
   },
 }
