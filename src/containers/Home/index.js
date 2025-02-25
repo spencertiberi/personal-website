@@ -73,6 +73,14 @@ const Home = () => (
     </Transition>
     <Experience>
       <ExperienceItem
+        company="Harvard University"
+        title="Head Math Teaching Assistant"
+        logo={harvard}
+        alt="Harvard"
+        yearStart="2024"
+        yearEnd="Present"
+      />
+      <ExperienceItem
         company="2U/edX"
         title="Senior Product Manager"
         logo={edX}
@@ -153,7 +161,7 @@ const Home = () => (
         />
       </Portfolio>
     </Wrapper>
-    <Footer>1991 onward and upward, my dude. Spencer Tiberi &copy; 2024</Footer>
+    <Footer>1991 onward and upward. Spencer Tiberi &copy; 2025</Footer>
   </Container>
 )
 
