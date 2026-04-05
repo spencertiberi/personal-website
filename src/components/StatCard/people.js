@@ -1,4 +1,4 @@
-import profileImage from './thps4-minOG.gif'
+import profileImage from './Rainbows.jpg'
 
 export const defaultUser = {
   name: 'Spencer Lee Tiberi',
@@ -7,15 +7,15 @@ export const defaultUser = {
   stats: {
     Creativity: 8,
     'Data-Driven Decision Making': 8,
-    Empathy: 9,
-    'Frontend Development': 7,
-    Guitar: 7,
-    Leadership: 8,
-    'Music Composition': 8,
+    'Empathic Leadership': 9,
+    // 'Frontend Development': 7,
+    // Guitar: 7,
+    // Leadership: 8,
+    // 'Music Composition': 8,
     'Presentation Skills': 9,
     'Product Strategy': 8,
-    'Project Management': 7,
+    // 'Project Management': 7,
     'Relationship Management': 9,
-    "Tony Hawk's Pro Skater References": 10,
+    // "Tony Hawk's Pro Skater References": 10,
   },
 }

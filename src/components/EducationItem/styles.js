@@ -27,11 +27,19 @@ export const Container = styled(Flex)`
 export const Heading = styled.h2`
   color: #55655a;
   font-family: 'outfit', sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 500;
   text-align: center;
   margin: 5px 0;
   max-width: 100vw;
+`
+
+export const Degree = styled.div`
+  color: #55655a;
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: 'Jost', sans-serif;
+  margin: 0;
 `
 
 export const Logo = styled.img`

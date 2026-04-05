@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Column, Container, Heading, Logo, LogoContainer } from './styles'
+import React from 'react'
+import { Column, Container, Degree, Heading, Logo, LogoContainer } from './styles'
 
 const EducationItem = ({ alt, logo, school, degree, year, degree2, year2 }) => (
   <Container>
@@ -8,8 +8,10 @@ const EducationItem = ({ alt, logo, school, degree, year, degree2, year2 }) => (
         <Logo src={logo} alt={alt} />
       </LogoContainer>
       <Heading>{school}</Heading>
-      {`${degree} ${year}`}
-      {degree2 && year2 && `, ${degree2} ${year2}`}
+      <Degree>
+        {degree && `${degree}`}{year && `${year}`}
+        {degree2 && `, ${degree2} `}{year2 && `${year2}`}
+      </Degree>
     </Column>
   </Container>
 )

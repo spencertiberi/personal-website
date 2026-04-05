@@ -5,7 +5,7 @@ import { Flex } from '@rebass/grid'
 
 const Container = styled(Flex)`
   flex-direction: Column;
-  padding: 20px;
+  padding: 0px;
   width: auto;
   color: inherit;
 `
@@ -30,7 +30,8 @@ const Image = styled.img`
   min-width: 200px;
   min-height: 200px;
   margin: 0 0 10px 0;
-  border-radius: 12px;
+  border-radius: 100%;
+  filter: saturate(65%);
 
   @media only screen and (max-width: 650px) {
     width: 40vw;
@@ -45,6 +46,7 @@ const Row = styled(Flex)`
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
+  
 `
 
 const Stats = styled(Flex)`
@@ -78,10 +80,11 @@ const Bar = styled(ProgressIndicator)`
 `
 const barStyles = {
   progressBar: {
-    backgroundColor: '#375F74',
+    // backgroundColor: '#375F74',
+    backgroundColor: 'rgba(80, 86, 71, 1)',
   },
   progressTrack: {
-    backgroundColor: 'rgb(50,50,50,0.5)',
+    backgroundColor: 'rgba(121, 133, 114, 1)',
   },
   itemProgress: {
     padding: 0,

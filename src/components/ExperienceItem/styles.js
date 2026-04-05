@@ -18,6 +18,7 @@ export const Container = styled(Flex)`
   height: auto;
   min-height: 100%;
   width: auto;
+  max-width: 15vw;
   color: #9ba28a;
   font-family: 'Jost', sans-serif;
   font-size: 1em;
@@ -28,7 +29,7 @@ export const Heading = styled.h2`
   color: #d4b483;
   font-family: 'outfit', sans-serif;
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   margin: 5px 0;
 `
@@ -39,7 +40,7 @@ export const Title = styled.h3`
   font-weight: 700;
   font-style: italic;
   text-align: center;
-  margin: 5px 0;
+  margin: 0;
 `
 
 export const Logo = styled.img`
@@ -49,7 +50,7 @@ export const Logo = styled.img`
   max-height: 100%;
 
   @media screen and (max-width: 900px) {
-    max-width: 30vw;
+    max-width:30vw;
   }
 `
 

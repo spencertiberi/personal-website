@@ -45,23 +45,23 @@ const Home = () => (
       <EducationItem
         school="University of California, Berkeley Haas"
         degree="MBA"
-        year="'26"
+        // year="'26"
         logo={haas}
         alt="UC Berkely Haas"
       />
       <EducationItem
         school="Harvard University"
         degree2="EdM"
-        year2="'21"
+        // year2="'21"
         degree="ALM"
-        year="'17"
+        // year="'17"
         logo={harvard}
         alt="Harvard"
       />
       <EducationItem
         school="University of Nevada, Las Vegas"
         degree="BS"
-        year="'13"
+        // year="'13"
         logo={unlv}
         alt="UNLV"
       />
@@ -73,14 +73,6 @@ const Home = () => (
     </Transition>
     <Experience>
       <ExperienceItem
-        company="Harvard University"
-        title="Head Math Teaching Assistant"
-        logo={harvard}
-        alt="Harvard"
-        yearStart="2024"
-        yearEnd="Present"
-      />
-      <ExperienceItem
         company="2U/edX"
         title="Senior Product Manager"
         logo={edX}
@@ -89,8 +81,16 @@ const Home = () => (
         yearEnd="Present"
       />
       <ExperienceItem
+        company="Harvard University"
+        title="Head Math Teaching Assistant"
+        logo={harvard}
+        alt="Harvard"
+        yearStart="2024"
+        yearEnd="2025"
+      />
+      <ExperienceItem
         company="DeepScribe"
-        title="Product Manager"
+        title="Product Manager, Onboarding"
         logo={ds}
         alt="DeepScribe"
         yearStart="2021"
@@ -98,7 +98,7 @@ const Home = () => (
       />
       <ExperienceItem
         company="Harvard University"
-        title="Product Manager, HSA DEV"
+        title="Engineering and Product Manager, HSA DEV"
         logo={dev}
         alt="Harvard"
         yearStart="2018"
@@ -118,18 +118,18 @@ const Home = () => (
         logo={harvard}
         alt="Harvard"
         yearStart="2017"
-        yearEnd="Present"
+        yearEnd="2025"
       />
-      <ExperienceItem
+      {/* <ExperienceItem
         company="Clark County School District"
         title="Math and CS Teacher"
         logo={ccsd}
         alt="CCSD"
         yearStart="2013"
         yearEnd="2017"
-      />
+      /> */}
     </Experience>
-    <Wrapper>
+    {/* <Wrapper>
       <Heading alt shift="18px">
         Portfolio
       </Heading>
@@ -160,8 +160,8 @@ const Home = () => (
           flip
         />
       </Portfolio>
-    </Wrapper>
-    <Footer>1991 onward and upward. Spencer Tiberi &copy; 2025</Footer>
+    </Wrapper> */}
+    <Footer>Spencer Tiberi &copy; 2026</Footer>
   </Container>
 )
 
